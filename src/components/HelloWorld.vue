@@ -28,6 +28,22 @@ export default {
       },
     };
   },
+  computed: {
+    computedMsg() {
+      return this.msg2 + "原理" + this.count2;
+    },
+  },
+  methods: {
+    handleClickData() {
+      this.count1++;
+    },
+    handleClickcomputed() {
+      this.count2++;
+    },
+    handleClick() {
+      this.test ++
+    }
+  },
   beforeCreate() {
     
     console.log("beforeCreate ----  helloWorld");
@@ -49,22 +65,6 @@ export default {
   },
   updated() {
     console.log("updated ----  helloWorld");
-  },
-  computed: {
-    computedMsg() {
-      return this.msg2 + "原理" + this.count2;
-    },
-  },
-  methods: {
-    handleClickData() {
-      this.count1++;
-    },
-    handleClickcomputed() {
-      this.count2++;
-    },
-    handleClick() {
-      this.test ++
-    }
   },
 };
 </script>

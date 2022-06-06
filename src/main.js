@@ -14,14 +14,9 @@ new Vue({
 //       attrs: {
 //         id: '#app2'
 //       }
-//     }, [this.message, createElement('h1', {
-//       attrs: {
-//         id: 'app3'
-//       }
-//     }, this.test)])
+//     }, this.message)
 //   },
 //   data: {
 //     message: 'Hello Vue2!',
-//     test: '商业化技术'
 //   }
 // })
