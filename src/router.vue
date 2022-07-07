@@ -4,7 +4,7 @@
         <p>
             <router-link to="/foo/1">go to foo111</router-link>
             <router-link to="/foo/2">go to foo222</router-link>
-            <router-link to="/bar">go to bar333</router-link>
+            <router-link to="/vuex">go to vuex</router-link>
         </p>
         <router-view></router-view>
     </div>

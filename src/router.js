@@ -1,5 +1,5 @@
 import Foo from './components/Foo.vue'
-import Bar from './components/Bar.vue'
+import VuexDemo from './components/VuexDemo.vue'
 import Child from './components/Child.vue'
 export const routes = [{
         path: '/foo/:id',
@@ -18,5 +18,5 @@ export const routes = [{
             }]
         }]
     },
-    { path: '/bar', component: Bar }
+    { path: '/vuex', component: VuexDemo }
 ]

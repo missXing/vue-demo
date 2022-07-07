@@ -1,7 +1,7 @@
 <template>
-    <div class="bar">
+    <div class="vuex-demo">
       <div>
-        hello bar
+        hello vuex
       </div>
         <br/>
         <button @click="handleGoFoo">go foo</button>
@@ -10,7 +10,7 @@
 <script>
 
 export default {
-  name: "Bar",
+  name: "VuexDemo",
   created() {
     console.log('---')
     console.log(this.$router)
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style>
-.bar {
+.vuex-demo {
   height: 200px;
   width: 200px;
   background: red;

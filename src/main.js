@@ -3,11 +3,9 @@ import VueRouter from 'vue-router'
 // import App from './App.vue'
 import RouterDemo from './router.vue'
 import { routes } from './router.js'
+import store from './store'
 
 Vue.use(VueRouter)
-
-
-
 const router = new VueRouter({ routes })
 
 router.beforeEach((to, from, next) => {
@@ -34,7 +32,8 @@ router.afterEach((to, from, a) => {
 new Vue({
     el: "#app",
     render: h => h(RouterDemo),
-    router
+    router,
+    store
 })
 
 // new Vue({
